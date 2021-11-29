@@ -6,8 +6,8 @@ UExampleDataFactory::UExampleDataFactory(const FObjectInitializer& ObjectInitial
 {
 	Formats.Add(TEXT("xmp;Example Data"));
 	SupportedClass = UExampleData::StaticClass();
-	bCreateNew = false; // turned off for import
-	bEditAfterNew = false; // turned off for import
+	bCreateNew = true; // turned off for import
+	bEditAfterNew = true; // turned off for import
 	bEditorImport = true;
 	bText = true;
 }
